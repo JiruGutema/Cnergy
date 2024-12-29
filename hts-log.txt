@@ -1,0 +1,55 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 28 Dec 2024 09:43:39 at https://theme.creativemox.com/digimax +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://theme.creativemox.com/digimax -O1 "D:\cnergy website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:44:39	Warning: 	Retry after error -4 (No data (connection closed)) at link https://theme.creativemox.com/digimax/xmlrpc.php?rsd (from https://theme.creativemox.com/digimax/)
+09:45:26	Warning: 	Retry after error 500 (Internal Server Error) at link https://theme.creativemox.com/digimax/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/.../fonts/themify.eot? (from https://theme.creativemox.com/digimax/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/themify.css?ver=1.0.8)
+09:45:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://theme.creativemox.com/digimax/xmlrpc.php?rsd (from https://theme.creativemox.com/digimax/)
+09:45:27	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=936
+09:45:27	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=936 to https://theme.creativemox.com/digimax/template-kit/homepage/
+09:45:27	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=630
+09:45:27	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=630 to https://theme.creativemox.com/digimax/template-kit/about-us/
+09:45:27	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=736
+09:45:27	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=736 to https://theme.creativemox.com/digimax/template-kit/services/
+09:45:27	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=413
+09:45:27	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=413 to https://theme.creativemox.com/digimax/template-kit/pricing-plan/
+09:45:27	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=872
+09:45:27	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=872 to https://theme.creativemox.com/digimax/template-kit/single-service/
+09:45:27	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=526
+09:45:27	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=526 to https://theme.creativemox.com/digimax/template-kit/portfolio/
+09:45:27	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=193
+09:45:27	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=193 to https://theme.creativemox.com/digimax/template-kit/contact-us/
+09:45:27	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=333
+09:45:27	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=333 to https://theme.creativemox.com/digimax/template-kit/our-team/
+09:45:27	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=277
+09:45:27	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=277 to https://theme.creativemox.com/digimax/template-kit/faq/
+09:45:27	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=126
+09:45:27	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=126 to https://theme.creativemox.com/digimax/?elementor_library=digimax-archive-blog
+09:45:27	Error: 	"Not Found" (404) at link https://theme.creativemox.com/digimax/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftheme.creativemox.com%2Fdigimax%2F%3Felementor_library%3Ddigimax-archive-blog (from https://theme.creativemox.com/digimax/?elementor_library=digimax-archive-blog)
+09:45:27	Error: 	"Not Found" (404) at link https://theme.creativemox.com/digimax/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftheme.creativemox.com%2Fdigimax%2F%3Felementor_library%3Ddigimax-archive-blog&format=xml (from https://theme.creativemox.com/digimax/?elementor_library=digimax-archive-blog)
+09:45:28	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=100
+09:45:28	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=100 to https://theme.creativemox.com/digimax/2024/01/19/mastering-seo-in-2024-a-comprehensive-guide-by-digimaxs-digital-wizards/
+09:45:33	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=179
+09:45:33	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=179 to https://theme.creativemox.com/digimax/?elementor_library=digimax-error-404
+09:45:33	Error: 	"Not Found" (404) at link https://theme.creativemox.com/digimax/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftheme.creativemox.com%2Fdigimax%2F%3Felementor_library%3Ddigimax-error-404 (from https://theme.creativemox.com/digimax/?elementor_library=digimax-error-404)
+09:45:33	Error: 	"Not Found" (404) at link https://theme.creativemox.com/digimax/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftheme.creativemox.com%2Fdigimax%2F%3Felementor_library%3Ddigimax-error-404&format=xml (from https://theme.creativemox.com/digimax/?elementor_library=digimax-error-404)
+09:45:33	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=99
+09:45:33	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=99 to https://theme.creativemox.com/digimax/2024/01/19/decoding-digital-success-how-data-analysis-empowers-your-business-growth-with-digimax/
+09:45:34	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=98
+09:45:34	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=98 to https://theme.creativemox.com/digimax/2024/01/19/from-clicks-to-conversions-optimizing-your-online-store-for-maximum-sales-impact/
+09:45:34	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=102
+09:45:34	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=102 to https://theme.creativemox.com/digimax/2024/01/19/beyond-likes-and-shares-strategies-for-effective-social-media-engagement-with-digimax/
+09:45:34	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=101
+09:45:34	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=101 to https://theme.creativemox.com/digimax/2024/01/19/crafting-a-visual-identity-the-importance-of-logo-design-in-branding-strategies/
+09:45:34	Warning: 	Moved Permanently for https://theme.creativemox.com/digimax/?p=94
+09:45:34	Warning: 	File has moved from https://theme.creativemox.com/digimax/?p=94 to https://theme.creativemox.com/digimax/2024/01/19/unlocking-online-success-the-art-of-building-a-user-centric-website-with-digimax/
+09:45:34	Warning: 	Retry after error 500 (Internal Server Error) at link https://theme.creativemox.com/digimax/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/.../fonts/themify.eot? (from https://theme.creativemox.com/digimax/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/themify.css?ver=1.0.8)
+09:45:34	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://theme.creativemox.com/digimax/xmlrpc.php?rsd (from https://theme.creativemox.com/digimax/)
+09:45:34	Error: 	"Internal Server Error" (500) after 2 retries at link https://theme.creativemox.com/digimax/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/.../fonts/themify.eot? (from https://theme.creativemox.com/digimax/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/themify.css?ver=1.0.8)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 55 seconds : 329 links scanned, 301 files written (28163128 bytes overall) [19544673 bytes received at 169953 bytes/sec], 12685053 bytes transferred using HTTP compression in 181 files, ratio 30%, 30.0 requests per connection
+(6 errors, 38 warnings, 0 messages)

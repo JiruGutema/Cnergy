@@ -28,167 +28,7 @@
       title="Digimax &raquo; Comments Feed"
       href="../../comments/feed/index.html"
     />
-    <script>
-      window._wpemojiSettings = {
-        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
-        ext: ".png",
-        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
-        svgExt: ".svg",
-        source: {
-          concatemoji:
-            "https:\/\/theme.creativemox.com\/digimax\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1",
-        },
-      };
-      /*! This file is auto-generated */
-      !(function (i, n) {
-        var o, s, e;
-        function c(e) {
-          try {
-            var t = { supportTests: e, timestamp: new Date().valueOf() };
-            sessionStorage.setItem(o, JSON.stringify(t));
-          } catch (e) {}
-        }
-        function p(e, t, n) {
-          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-            e.fillText(t, 0, 0);
-          var t = new Uint32Array(
-              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
-            ),
-            r =
-              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-              e.fillText(n, 0, 0),
-              new Uint32Array(
-                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
-              ));
-          return t.every(function (e, t) {
-            return e === r[t];
-          });
-        }
-        function u(e, t, n) {
-          switch (t) {
-            case "flag":
-              return n(
-                e,
-                "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
-                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
-              )
-                ? !1
-                : !n(
-                    e,
-                    "\ud83c\uddfa\ud83c\uddf3",
-                    "\ud83c\uddfa\u200b\ud83c\uddf3"
-                  ) &&
-                    !n(
-                      e,
-                      "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                    );
-            case "emoji":
-              return !n(
-                e,
-                "\ud83d\udc26\u200d\u2b1b",
-                "\ud83d\udc26\u200b\u2b1b"
-              );
-          }
-          return !1;
-        }
-        function f(e, t, n) {
-          var r =
-              "undefined" != typeof WorkerGlobalScope &&
-              self instanceof WorkerGlobalScope
-                ? new OffscreenCanvas(300, 150)
-                : i.createElement("canvas"),
-            a = r.getContext("2d", { willReadFrequently: !0 }),
-            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
-          return (
-            e.forEach(function (e) {
-              o[e] = t(a, e, n);
-            }),
-            o
-          );
-        }
-        function t(e) {
-          var t = i.createElement("script");
-          (t.src = e), (t.defer = !0), i.head.appendChild(t);
-        }
-        "undefined" != typeof Promise &&
-          ((o = "wpEmojiSettingsSupports"),
-          (s = ["flag", "emoji"]),
-          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
-          (e = new Promise(function (e) {
-            i.addEventListener("DOMContentLoaded", e, { once: !0 });
-          })),
-          new Promise(function (t) {
-            var n = (function () {
-              try {
-                var e = JSON.parse(sessionStorage.getItem(o));
-                if (
-                  "object" == typeof e &&
-                  "number" == typeof e.timestamp &&
-                  new Date().valueOf() < e.timestamp + 604800 &&
-                  "object" == typeof e.supportTests
-                )
-                  return e.supportTests;
-              } catch (e) {}
-              return null;
-            })();
-            if (!n) {
-              if (
-                "undefined" != typeof Worker &&
-                "undefined" != typeof OffscreenCanvas &&
-                "undefined" != typeof URL &&
-                URL.createObjectURL &&
-                "undefined" != typeof Blob
-              )
-                try {
-                  var e =
-                      "postMessage(" +
-                      f.toString() +
-                      "(" +
-                      [JSON.stringify(s), u.toString(), p.toString()].join(
-                        ","
-                      ) +
-                      "));",
-                    r = new Blob([e], { type: "text/javascript" }),
-                    a = new Worker(URL.createObjectURL(r), {
-                      name: "wpTestEmojiSupports",
-                    });
-                  return void (a.onmessage = function (e) {
-                    c((n = e.data)), a.terminate(), t(n);
-                  });
-                } catch (e) {}
-              c((n = f(s, u, p)));
-            }
-            t(n);
-          })
-            .then(function (e) {
-              for (var t in e)
-                (n.supports[t] = e[t]),
-                  (n.supports.everything =
-                    n.supports.everything && n.supports[t]),
-                  "flag" !== t &&
-                    (n.supports.everythingExceptFlag =
-                      n.supports.everythingExceptFlag && n.supports[t]);
-              (n.supports.everythingExceptFlag =
-                n.supports.everythingExceptFlag && !n.supports.flag),
-                (n.DOMReady = !1),
-                (n.readyCallback = function () {
-                  n.DOMReady = !0;
-                });
-            })
-            .then(function () {
-              return e;
-            })
-            .then(function () {
-              var e;
-              n.supports.everything ||
-                (n.readyCallback(),
-                (e = n.source || {}).concatemoji
-                  ? t(e.concatemoji)
-                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
-            }));
-      })((window, document), window._wpemojiSettings);
-    </script>
+
     <style id="wp-emoji-styles-inline-css">
       img.wp-smiley,
       img.emoji {
@@ -1013,26 +853,7 @@
                             class="elementor-item"
                             >Services</a
                           >
-                          <ul class="sub-menu elementor-nav-menu--dropdown">
-                            <li
-                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36"
-                            >
-                              <a
-                                href="../pricing-plan/index.html"
-                                class="elementor-sub-item"
-                                >Pricing plan</a
-                              >
-                            </li>
-                            <li
-                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"
-                            >
-                              <a
-                                href="../single-service/index.html"
-                                class="elementor-sub-item"
-                                >Detail Service</a
-                              >
-                            </li>
-                          </ul>
+                       
                         </li>
                         <li
                           class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38"
@@ -1056,221 +877,24 @@
                           class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-44"
                         >
                           <a
-                            href="#"
+                            href="../our-team/index.html"
                             class="elementor-item elementor-item-anchor"
-                            >Pages</a
-                          >
-                          <ul class="sub-menu elementor-nav-menu--dropdown">
-                            <li
-                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"
-                            >
-                              <a
-                                href="../our-team/index.html"
-                                class="elementor-sub-item"
-                                >Team</a
-                              >
-                            </li>
-                            <li
-                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40"
-                            >
-                              <a
-                                href="../faq/index.html"
-                                class="elementor-sub-item"
-                                >FAQ</a
-                              >
-                            </li>
-                            <li
-                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41"
-                            >
-                              <a
-                                href="../../index795e.html?elementor_library=digimax-archive-blog"
-                                class="elementor-sub-item"
-                                >Blog Archive</a
-                              >
-                            </li>
-                            <li
-                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42"
-                            >
-                              <a
-                                href="../../2024/01/19/mastering-seo-in-2024-a-comprehensive-guide-by-digimaxs-digital-wizards/index.html"
-                                class="elementor-sub-item"
-                                >Single Post</a
-                              >
-                            </li>
-                            <li
-                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"
-                            >
-                              <a
-                                href="../../indexf196.html?elementor_library=digimax-error-404"
-                                class="elementor-sub-item"
-                                >Error 404</a
-                              >
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </nav>
-                    <div
-                      class="elementor-menu-toggle"
-                      role="button"
-                      tabindex="0"
-                      aria-label="Menu Toggle"
-                      aria-expanded="false"
-                    >
-                      <i
-                        aria-hidden="true"
-                        role="presentation"
-                        class="elementor-menu-toggle__icon--open ti-menu"
-                      ></i
-                      ><i
-                        aria-hidden="true"
-                        role="presentation"
-                        class="elementor-menu-toggle__icon--close ti-close"
-                      ></i>
-                      <span class="elementor-screen-only">Menu</span>
-                    </div>
-                    <nav
-                      class="elementor-nav-menu--dropdown elementor-nav-menu__container"
-                      aria-hidden="true"
-                    >
-                      <ul id="menu-2-84cc3d5" class="elementor-nav-menu">
-                        <li
-                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"
-                        >
-                          <a
-                            href="../homepage/index.html"
-                            class="elementor-item"
-                            tabindex="-1"
-                            >Homepage</a
-                          >
-                        </li>
-                        <li
-                          class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-33"
-                        >
-                          <a
-                            href="index.html"
-                            aria-current="page"
-                            class="elementor-item elementor-item-active"
-                            tabindex="-1"
-                            >About us</a
-                          >
-                        </li>
-                        <li
-                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35"
-                        >
-                          <a
-                            href="../services/index.html"
-                            class="elementor-item"
-                            tabindex="-1"
-                            >Services</a
-                          >
-                          <ul class="sub-menu elementor-nav-menu--dropdown">
-                            <li
-                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36"
-                            >
-                              <a
-                                href="../pricing-plan/index.html"
-                                class="elementor-sub-item"
-                                tabindex="-1"
-                                >Pricing plan</a
-                              >
-                            </li>
-                            <li
-                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"
-                            >
-                              <a
-                                href="../single-service/index.html"
-                                class="elementor-sub-item"
-                                tabindex="-1"
-                                >Detail Service</a
-                              >
-                            </li>
-                          </ul>
-                        </li>
-                        <li
-                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38"
-                        >
-                          <a
-                            href="../portfolio/index.html"
-                            class="elementor-item"
-                            tabindex="-1"
-                            >Portfolio</a
-                          >
-                        </li>
-                        <li
-                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39"
-                        >
-                          <a
-                            href="../contact-us/index.html"
-                            class="elementor-item"
-                            tabindex="-1"
-                            >Contact us</a
+                            >Team</a
                           >
                         </li>
                         <li
                           class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-44"
                         >
                           <a
-                            href="#"
+                            href="../faq/index.html"
                             class="elementor-item elementor-item-anchor"
-                            tabindex="-1"
-                            >Pages</a
+                            >FAQ</a
                           >
-                          <ul class="sub-menu elementor-nav-menu--dropdown">
-                            <li
-                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"
-                            >
-                              <a
-                                href="../our-team/index.html"
-                                class="elementor-sub-item"
-                                tabindex="-1"
-                                >Team</a
-                              >
-                            </li>
-                            <li
-                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40"
-                            >
-                              <a
-                                href="../faq/index.html"
-                                class="elementor-sub-item"
-                                tabindex="-1"
-                                >FAQ</a
-                              >
-                            </li>
-                            <li
-                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41"
-                            >
-                              <a
-                                href="../../index795e.html?elementor_library=digimax-archive-blog"
-                                class="elementor-sub-item"
-                                tabindex="-1"
-                                >Blog Archive</a
-                              >
-                            </li>
-                            <li
-                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42"
-                            >
-                              <a
-                                href="../../2024/01/19/mastering-seo-in-2024-a-comprehensive-guide-by-digimaxs-digital-wizards/index.html"
-                                class="elementor-sub-item"
-                                tabindex="-1"
-                                >Single Post</a
-                              >
-                            </li>
-                            <li
-                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"
-                            >
-                              <a
-                                href="../../indexf196.html?elementor_library=digimax-error-404"
-                                class="elementor-sub-item"
-                                tabindex="-1"
-                                >Error 404</a
-                              >
-                            </li>
-                          </ul>
                         </li>
+                        
                       </ul>
                     </nav>
+                   
                   </div>
                 </div>
                 <div
@@ -1286,7 +910,7 @@
                         href="#"
                       >
                         <span class="elementor-button-content-wrapper">
-                          <span class="elementor-button-text">Get Started</span>
+                        <span class="elementor-button-text">Get Started</span>
                         </span>
                       </a>
                     </div>

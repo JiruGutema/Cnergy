@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cnergy Form Submission</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="con">
+          <img src="./newsics.png" alt="logo" />
+
+          <h1><a href="../../index.html">Home</a></h1>
+        </div>
+      </header>
+
+      <p>
+        This registration form is designed to collect essential details from
+        users who wish to register for our services. The form consists of
+        various fields for personal information, contact details, and additional
+        feedback.
+      </p>
+      <p class="Team">Team Cnergy!</p>
+      <br />
+      <div class="container">
+        <!-- Title section -->
+        <div class="title">Registration</div>
+        <div class="content">
+          <!-- Registration form -->
+          <form action="" method="POST">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Full Name</span>
+                <input
+                  type="text"
+                  name="fullName"
+                  placeholder="John"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="cnergy@gmail.com"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <span class="details">Phone Number</span>
+                <input
+                  type="tel"
+                  name="phoneNumber"
+                  placeholder="+25911223344"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <span class="details">Subject | Title</span>
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <span class="details">Description</span>
+                <textarea
+                  name="description"
+                  placeholder="Tell us what you wanted to say to us!"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div class="gender-details">
+              <span class="gender-title">Gender</span>
+              <div class="category">
+                <select name="gender" id="gender" required>
+                  <option value="" disabled selected>Select Gender</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </div>
+            </div>
+            <div class="button">
+              <input id="submit" type="button" value="Register" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="./form.js"></script>
+  </body>
+</html>
